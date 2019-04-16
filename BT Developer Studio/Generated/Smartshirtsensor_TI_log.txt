@@ -1,0 +1,84 @@
+Service name: SENSOR SERVICE
+Processing char: ACC ENABLE
+  No variable length fields, setting max length equal to min length.
+  1 fields in char.
+  Allocated (max) length calculated to: 1 bytes
+  Minimum length calculated to: 1 bytes.
+Processing char: ACC ODR
+  No variable length fields, setting max length equal to min length.
+  1 fields in char.
+  Allocated (max) length calculated to: 4 bytes
+  Minimum length calculated to: 4 bytes.
+Processing char: ACC FS
+  No variable length fields, setting max length equal to min length.
+  1 fields in char.
+  Allocated (max) length calculated to: 2 bytes
+  Minimum length calculated to: 2 bytes.
+Processing char: GYRO FS
+  No variable length fields, setting max length equal to min length.
+  1 fields in char.
+  Allocated (max) length calculated to: 2 bytes
+  Minimum length calculated to: 2 bytes.
+Processing char: GYRO ODR
+  No variable length fields, setting max length equal to min length.
+  1 fields in char.
+  Allocated (max) length calculated to: 4 bytes
+  Minimum length calculated to: 4 bytes.
+Processing char: GYRO ENABLE
+  No variable length fields, setting max length equal to min length.
+  1 fields in char.
+  Allocated (max) length calculated to: 1 bytes
+  Minimum length calculated to: 1 bytes.
+Processing char: DATA
+  Variable length fields in char, setting max length to 20 bytes
+  1 fields in char.
+  Allocated (max) length calculated to: 20 bytes
+  Minimum length calculated to: 1 bytes.
+---------------
+Generated header file: Smartshirtsensor_TI_cc2640r2sdk_1_40/sensor_service.h
+Generated code file: Smartshirtsensor_TI_cc2640r2sdk_1_40/sensor_service.c
+Service name: BATTERY SERVICE
+Processing char: VBATT
+  No variable length fields, setting max length equal to min length.
+  1 fields in char.
+  Allocated (max) length calculated to: 2 bytes
+  Minimum length calculated to: 2 bytes.
+Processing char: CBATT
+  No variable length fields, setting max length equal to min length.
+  1 fields in char.
+  Allocated (max) length calculated to: 2 bytes
+  Minimum length calculated to: 2 bytes.
+Processing char: TEMP
+  No variable length fields, setting max length equal to min length.
+  1 fields in char.
+  Allocated (max) length calculated to: 2 bytes
+  Minimum length calculated to: 2 bytes.
+Processing char: MAX_VBATT
+  No variable length fields, setting max length equal to min length.
+  1 fields in char.
+  Allocated (max) length calculated to: 2 bytes
+  Minimum length calculated to: 2 bytes.
+---------------
+Generated header file: Smartshirtsensor_TI_cc2640r2sdk_1_40/battery_service.h
+Generated code file: Smartshirtsensor_TI_cc2640r2sdk_1_40/battery_service.c
+Service name: UI SERVICE
+Processing char: BUTTON
+  No variable length fields, setting max length equal to min length.
+  1 fields in char.
+  Allocated (max) length calculated to: 1 bytes
+  Minimum length calculated to: 1 bytes.
+Processing char: LED1
+  No variable length fields, setting max length equal to min length.
+  1 fields in char.
+  Allocated (max) length calculated to: 1 bytes
+  Minimum length calculated to: 1 bytes.
+Processing char: LED2
+  No variable length fields, setting max length equal to min length.
+  1 fields in char.
+  Allocated (max) length calculated to: 1 bytes
+  Minimum length calculated to: 1 bytes.
+---------------
+Generated header file: Smartshirtsensor_TI_cc2640r2sdk_1_40/ui_service.h
+Generated code file: Smartshirtsensor_TI_cc2640r2sdk_1_40/ui_service.c
+Generated code file: Smartshirtsensor_TI_cc2640r2sdk_1_40/project_zero_bds.c
+Modified sample-app file for Project Zero project.

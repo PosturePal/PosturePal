@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<BDSProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SmartShirt" LastModified="2018-02-16T11:16:10.1984558+02:00">
+  <Namespace>com.smartshirt</Namespace>
+  <BaseGuid>ce060000-6a31-4072-b7dc-ef1284282be8</BaseGuid>
+  <Profile Name="com.smartshirt.profile.smartshirtsensor" XMLFile="Profiles\com.smartshirt.profile.smartshirtsensor.xml" />
+  <ServiceFiles>
+    <Service UID="e7174777-bfec-4dd9-9c00-121b1ca4efe6" XMLFile="Services\com.smartshirt.service.sensor_service1.xml" UUIDMode="Short">
+      <UUIDDisplayMode>Short</UUIDDisplayMode>
+      <CharacteristicFiles>
+        <Characteristic UID="77cbbde3-934a-453e-abfc-d47214dca011" XMLFile="Characteristics\com.smartshirt.characteristic.acc_enable1.xml" UUIDMode="Short" />
+        <Characteristic UID="ee88ea09-a7ec-4f03-bdc4-10305ee99a40" XMLFile="Characteristics\com.smartshirt.characteristic.acc_odr1.xml" UUIDMode="Short" />
+        <Characteristic UID="43a07dc1-fe43-47a7-8de3-5807d9c38ed1" XMLFile="Characteristics\com.smartshirt.characteristic.acc_fs1.xml" UUIDMode="Short" />
+        <Characteristic UID="aa6bb453-b470-4fe2-a873-2415585b2812" XMLFile="Characteristics\com.smartshirt.characteristic.gyro_enable.xml" UUIDMode="Short" />
+        <Characteristic UID="a7534a41-202c-49fa-9581-25f86daf7e87" XMLFile="Characteristics\com.smartshirt.characteristic.gyro_odr.xml" UUIDMode="Short" />
+        <Characteristic UID="e8b17f71-5fa7-437c-ae75-9d7b387fd560" XMLFile="Characteristics\com.smartshirt.characteristic.gyro_fs1.xml" UUIDMode="Short" />
+        <Characteristic UID="95427737-4e41-44c1-9706-bbeb0b056b27" XMLFile="Characteristics\com.smartshirt.characteristic.data.xml" UUIDMode="Short">
+          <DescriptorFiles>
+            <Descriptor UID="81ad5868-1849-4253-96cb-a092aef06905" XMLFile="Descriptors\org.bluetooth.descriptor.gatt.client_characteristic_configuration.xml" UUIDMode="Short" />
+          </DescriptorFiles>
+        </Characteristic>
+      </CharacteristicFiles>
+    </Service>
+    <Service UID="56f218b0-1fdd-4f69-aea7-1eaabe38c134" XMLFile="Services\com.smartshirt.service.ui_service.xml" UUIDMode="Short">
+      <UUIDDisplayMode>Short</UUIDDisplayMode>
+      <CharacteristicFiles>
+        <Characteristic UID="809774fb-7991-46d6-8f68-edbdfc391e8a" XMLFile="Characteristics\com.smartshirt.characteristic.button.xml" UUIDMode="Short">
+          <DescriptorFiles>
+            <Descriptor UID="5b868b05-c0aa-47fb-8907-8ea3ef59dde6" XMLFile="Descriptors\org.bluetooth.descriptor.gatt.client_characteristic_configuration.xml" UUIDMode="Short" />
+          </DescriptorFiles>
+        </Characteristic>
+        <Characteristic UID="e25ecb6e-907c-47b5-92ae-42b0c4c37415" XMLFile="Characteristics\com.smartshirt.characteristic.led1.xml" UUIDMode="Short">
+          <DescriptorFiles>
+            <Descriptor UID="e37dc7dc-9a1d-423f-ab27-78103f4b6965" XMLFile="Descriptors\org.bluetooth.descriptor.gatt.client_characteristic_configuration.xml" UUIDMode="Short" />
+          </DescriptorFiles>
+        </Characteristic>
+        <Characteristic UID="e6170a2b-9689-4e13-8dad-207d84395237" XMLFile="Characteristics\com.smartshirt.characteristic.led2.xml" UUIDMode="Short">
+          <DescriptorFiles>
+            <Descriptor UID="8893c32a-535a-4508-884a-98d4d92da46e" XMLFile="Descriptors\org.bluetooth.descriptor.gatt.client_characteristic_configuration.xml" UUIDMode="Short" />
+          </DescriptorFiles>
+        </Characteristic>
+      </CharacteristicFiles>
+    </Service>
+    <Service UID="211b055c-ab9d-480e-a1f7-02ac91973350" XMLFile="Services\com.smartshirt.service.battery_service1.xml" UUIDMode="Short">
+      <UUIDDisplayMode>Short</UUIDDisplayMode>
+      <CharacteristicFiles>
+        <Characteristic UID="a7e1f1ef-4ec0-4686-9d0f-035600eae439" XMLFile="Characteristics\com.smartshirt.characteristic.vbatt.xml" UUIDMode="Short">
+          <DescriptorFiles>
+            <Descriptor UID="64ba3ede-da7f-4db9-b9ed-834d5840bd1f" XMLFile="Descriptors\org.bluetooth.descriptor.gatt.client_characteristic_configuration.xml" UUIDMode="Short" />
+          </DescriptorFiles>
+        </Characteristic>
+        <Characteristic UID="ca86b262-3c57-4346-89cf-f7e0bb1f228a" XMLFile="Characteristics\com.smartshirt.characteristic.cbatt.xml" UUIDMode="Short">
+          <DescriptorFiles>
+            <Descriptor UID="fb5d3aab-d48d-49ae-aeb2-7b5b6ef178ba" XMLFile="Descriptors\org.bluetooth.descriptor.gatt.client_characteristic_configuration.xml" UUIDMode="Short" />
+          </DescriptorFiles>
+        </Characteristic>
+        <Characteristic UID="4515bd2f-a73f-4d86-b1eb-0d636e42e456" XMLFile="Characteristics\com.smartshirt.characteristic.temp.xml" UUIDMode="Short">
+          <DescriptorFiles>
+            <Descriptor UID="7457f1be-5d75-43f8-afe9-10a5eda8a5a9" XMLFile="Descriptors\org.bluetooth.descriptor.gatt.client_characteristic_configuration.xml" UUIDMode="Short" />
+          </DescriptorFiles>
+        </Characteristic>
+        <Characteristic UID="a33b839f-51fb-45a0-a8a1-8e30a2cfd186" XMLFile="Characteristics\com.smartshirt.characteristic.max_vbatt.xml" UUIDMode="Short" />
+      </CharacteristicFiles>
+    </Service>
+  </ServiceFiles>
+  <Workbench>
+    <Client Name="Virtual Client" />
+    <Peripheral Name="Virtual Server" />
+  </Workbench>
+  <SavePath>C:\Users\emil\SVN\[Mathew Hendrix] SmartShirt\05 Firmware\Rev1\BT Developer Studio\SmartShirt\SmartShirt.bds</SavePath>
+  <PublishData>
+    <Category />
+    <LastPublishDate>0</LastPublishDate>
+    <Annotations>true</Annotations>
+    <Emulation>true</Emulation>
+  </PublishData>
+</BDSProject>

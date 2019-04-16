@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Characteristic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://schemas.bluetooth.org/Documents/characteristic.xsd"
+  type="com.smartshirt.characteristic.data"
+  uuid="fff7"
+  name="DATA">
+  <Value>
+    <Field
+      name="DATA">
+      <Requirement>Mandatory</Requirement>
+      <Format>uint8[]</Format>
+      <Unit>org.bluetooth.unit.unitless</Unit>
+      <Repeated>false</Repeated>
+    </Field>
+  </Value>
+</Characteristic>

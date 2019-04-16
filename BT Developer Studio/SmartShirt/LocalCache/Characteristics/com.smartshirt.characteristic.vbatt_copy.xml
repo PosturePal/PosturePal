@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Characteristic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://schemas.bluetooth.org/Documents/characteristic.xsd"
+  type="com.smartshirt.characteristic.vbatt_copy"
+  uuid="ce06803e-6a31-4072-b7dc-ef1284282be8"
+  name="VBATT Copy">
+  <Value>
+    <Field
+      name="VBATT">
+      <Requirement>Mandatory</Requirement>
+      <Format>uint16</Format>
+      <Unit>org.bluetooth.unit.unitless</Unit>
+      <Repeated>false</Repeated>
+    </Field>
+  </Value>
+</Characteristic>

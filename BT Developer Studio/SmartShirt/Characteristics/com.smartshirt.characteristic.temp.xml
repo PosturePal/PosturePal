@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Characteristic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://schemas.bluetooth.org/Documents/characteristic.xsd"
+  type="com.smartshirt.characteristic.temp"
+  uuid="ffd3"
+  name="TEMP">
+  <Value>
+    <Field
+      name="TEMP">
+      <Requirement>Mandatory</Requirement>
+      <Format>sint16</Format>
+      <Unit>org.bluetooth.unit.unitless</Unit>
+      <Repeated>false</Repeated>
+    </Field>
+  </Value>
+</Characteristic>
